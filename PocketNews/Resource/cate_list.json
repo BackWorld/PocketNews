@@ -1,0 +1,46 @@
+{
+    "code": 200,
+    "data": [
+             {
+             "cate_id": "1",
+             "name": "头条"
+             },
+             {
+             "cate_id": "2",
+             "name": "娱乐"
+             },
+             {
+             "cate_id": "3",
+             "name": "体育"
+             },
+             {
+             "cate_id": "4",
+             "name": "财经"
+             },
+             {
+             "cate_id": "5",
+             "name": "科技"
+             },
+             {
+             "cate_id": "6",
+             "name": "汽车"
+             },
+             {
+             "cate_id": "7",
+             "name": "搞笑"
+             },
+             {
+             "cate_id": "8",
+             "name": "人民日报"
+             },
+             {
+             "cate_id": "9",
+             "name": "央视财经"
+             },
+             {
+             "cate_id": "10",
+             "name": "北京"
+             }
+             ],
+    "message": "ok"
+}

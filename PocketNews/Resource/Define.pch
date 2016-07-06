@@ -1,0 +1,37 @@
+//
+//  Define.pch
+//  PocketNews
+//
+//  Created by MS on 15-6-24.
+//  Copyright (c) 2015年 ZXH. All rights reserved.
+//
+
+#ifndef PocketNews_Define_pch
+#define PocketNews_Define_pch
+
+//共用红色
+#define kCommenRedColor [UIColor colorWithRed:199/255.0 green:19/255.0 blue:42/255.0 alpha:1]
+
+//屏幕宽高
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+
+// ------- 数据接口
+#define kNewsUrl @"http://api.sina.cn/sinago/list.json?uid=d36850f6ae49a307&platfrom_version=4.4.4&wm=b207&oldchwm=15006_0001&imei=866962022183622&from=6047095012&connection_type=2&chwm=15006_0001&AndroidID=4c57abf51981ba1650d93efb31fe1002&v=1&s=20&IMEI=2ed6c7f3c715556151ba39a2668a8bc3&p=1&user_id=2803678152&MAC=c0c8089ff729c247c612777d4d55bd0f&channel=%@"
+
+// 新闻
+#define kArrNewsKey @[@"news_toutiao",@"news_ent",@"news_sports",@"news_finance",@"news_tech",@"news_auto",@"news_funny",@"mp_2803301701",@"mp_2258727970",@"news_beijin"]
+
+// 图片
+#define kArrPictureKey @[@"hdpic_toutiao",@"hdpic_funny",@"hdpic_pretty",@"hdpic_story"]
+
+// 视频
+#define kArrVideoKey @[@"video_video",@"video_scene",@"video_funny",@"video_highlights"]
+
+// 新闻详情页
+#define kNewsDetailUrl @"http://api.sina.cn/sinago/articlev2.json?id=%@&uid=d36850f6ae49a307&wm=b207&oldchwm=15006_0001&imei=866962022183622&user_uid=2803678152&from=6047095012&postt=news_news_toutiao_focus_4&chwm=15006_0001"
+
+// 新闻评论页
+#define kNewsCommentsUrl @"http://api.sina.cn/sinago/comment.json?uid=d36850f6ae49a307&hotcount=5&wm=b207&cmnt_id=%@&oldchwm=15006_0001&imei=866962022183622&action=list&from=6047095012&type=all&chwm=15006_0001"
+
+#endif
